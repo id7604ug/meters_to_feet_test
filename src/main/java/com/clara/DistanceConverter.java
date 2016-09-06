@@ -8,7 +8,7 @@ public class DistanceConverter {
     public static void main(String[] args) {
         // write your code here
 
-        System.out.println("Please type in a distance in meters:");
+        System.out.print("Please type in a distance in meters: ");
         int meters = numberScanner.nextInt();
 
         int feet = metersToFeet(meters);
@@ -19,12 +19,12 @@ public class DistanceConverter {
         numberScanner.close();
     }
 
-
     public static int metersToFeet(int meters){
         //TODO! This method doesn't work yet. Can you fix it?
         //To convert meters to feet, multiply by 3
+        int convertedNumber = meters * 3;
 
-        return 0;
+        return convertedNumber;
     }
 
     // I know doubles would be more real world but we are keeping it simple
